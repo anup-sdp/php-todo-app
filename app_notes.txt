@@ -1,0 +1,36 @@
+simple php todo crud.
+built with claude sonnet 5 medium, date 2026.08.21
+prompt: give a simpe php todo crud app for learning, it uses sqlite.
+
+check if PHP has the pdo_sqlite extension:
+PS D:\laravel apps\php-todo-app> php -m | grep pdo_sqlite
+pdo_sqlite
+
+run from project root:
+php -S localhost:8000
+
+open in browser: 
+http://localhost:8000
+
+
+http://localhost:8000/api/todos.php
+
+get /api/todos.php
+get /api/todos.php?id=1
+post /api/todos.php  {"title": "New Todo"}
+put /api/todos.php?id=1  {"title": "Updated Todo", "done": true}
+delete /api/todos.php?id=1
+
+
+==============
+git init
+git status
+git branch -M main
+git add .
+git commit -m "initial commit"
+
+
+# later
+git remote add origin https://github.com/anup-sdp/php-todo-app.git
+
+git push -u origin main
