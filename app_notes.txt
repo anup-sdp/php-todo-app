@@ -32,5 +32,6 @@ git commit -m "initial commit"
 
 # later
 git remote add origin https://github.com/anup-sdp/php-todo-app.git
-
+git add .
+git commit -m "update0.1"
 git push -u origin main
