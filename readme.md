@@ -1,4 +1,4 @@
-# PHP Todo CRUD App (SQLite)
+## PHP Todo CRUD App (SQLite)
 
 A minimal Todo app for learning PHP + SQLite, with two ways to use it:
 
